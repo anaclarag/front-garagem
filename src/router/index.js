@@ -27,6 +27,11 @@ const router = createRouter({
       name: "cores",
       component: CorView,
     },
+    {
+      path: "/marcas",
+      name: "marcas",
+      component: MarcaView,
+    },
   ],
 });
 
